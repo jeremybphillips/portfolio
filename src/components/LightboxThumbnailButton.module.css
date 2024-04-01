@@ -1,0 +1,13 @@
+.thumbnail-button-container {
+    position: relative;
+    display: inline-block;
+
+    .thumbnail-button {
+        padding: 0;
+        background-color: transparent;
+    }
+
+    .thumbnail-button:focus {
+        outline: none;
+    }
+}
