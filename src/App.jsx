@@ -37,7 +37,7 @@ function App() {
             </div>
             <div className="author-content">
               <h4>Jeremy Phillips</h4>
-              <span>Senior front end developer</span>
+              <span>Senior Frontend Engineer</span>
             </div>
             <nav className="main-nav" role="navigation">
               <ul className="main-menu">
@@ -62,9 +62,11 @@ function App() {
             <h2>About Me</h2>
             <div className="line-dec"></div>
             <span>
-              A seasoned front end developer adept at transforming ideas into
-              interactive solutions. Passionate about creating captivating user
-              experiences and delivering exceptional results.
+              Senior Frontend Engineer with 15+ years building high-traffic
+              applications. I've led frontend architecture for applications
+              serving 10M+ users and driven a 50% increase in annual signups
+              through targeted UX improvements. Fluent in AI-assisted
+              development.
             </span>
           </div>
 
@@ -110,17 +112,17 @@ function App() {
                 <div className="right-text">
                   <h4>Texas Department of Criminal Justice</h4>
                   <p>
-                    Lead front end developer the modernization of the
-                    11-year-old direct purchase program for Texas Department of
-                    Criminal Justice (TDCJ).
+                    Frontend architect and lead developer for the modernization
+                    of the 11-year-old eCommDirect direct purchase program for
+                    the Texas Department of Criminal Justice (TDCJ).
+                    Improvements to the account creation flow drove a{" "}
+                    <strong>50% increase in annual signups (1M → 1.5M)</strong>.
                   </p>
                   <p>
-                    Lead React / Next.js developmer. Worked in collaboration
-                    with the UX team to translate Figma designs into a modern
-                    interface. Played a key role in revamping the outdated
-                    application, working closely with designers to implement
-                    their vision while providing expertise on technical
-                    feasibility and best practices.
+                    Led React / Next.js development in collaboration with the UX
+                    team to translate Figma designs into a modern interface,
+                    providing expertise on technical feasibility and best
+                    practices throughout.
                   </p>
                   <button onClick={() => setLightboxOpen(1)}>View More</button>
                 </div>
@@ -132,14 +134,16 @@ function App() {
               <div className="col-md-6">
                 <div className="left-text">
                   <h4>Texas x Texas (TxT)</h4>
-                  <p>Front end architech for Texas x Texas (TxT).</p>
                   <p>
-                    Led the front-end development effort while regularly
+                    Frontend architect for Texas x Texas (TxT), a React Native
+                    mobile consolidation project serving Texas.gov's 10M+ users.
+                  </p>
+                  <p>
+                    Led the frontend development effort while regularly
                     participating in meetings to address feasibility questions
-                    from the UX team and product managemnt, ensuring a seamless
-                    integration of design and development. Provided valuable
-                    insights during discussions to ensure alignment between
-                    design vision and technical feasibility.
+                    from the UX team and product management, ensuring seamless
+                    alignment between design vision and technical
+                    implementation.
                   </p>
                   <button onClick={() => setLightboxOpen(2)}>View More</button>
                 </div>
@@ -202,15 +206,17 @@ function App() {
               </div>
               <div className="col-md-6">
                 <div className="right-text">
-                  <h4>React component library</h4>
+                  <h4>Texkit Design System</h4>
                   <p>
-                    Partnered with UX designers and product managemnt to develop
-                    new components for an internal component library.
+                    Partnered with UX designers and product management to build
+                    and maintain reusable components for the Texkit design
+                    system, improving development speed and consistency across
+                    teams.
                   </p>
                   <p>
-                    Actively contributed to the expansion and maintanacne of the
-                    component library. Also worked with devops to create new CI
-                    / CD process used for release.
+                    Actively contributed to the expansion and maintenance of the
+                    component library and worked with DevOps to establish a new
+                    CI/CD release pipeline.
                   </p>
                   <button onClick={() => setLightboxOpen(3)}>View More</button>
                 </div>
