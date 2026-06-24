@@ -292,7 +292,6 @@ html {
     position: relative;
     min-height: 100vh;
     padding-bottom: 80px;
-    border-bottom: 3px solid rgba(250, 250, 250, 0.25);
 }
 
 .section-heading {
@@ -378,6 +377,11 @@ button:focus {
     border-radius: 5px;
 }
 
+.ecomm-crop {
+    overflow: hidden;
+    aspect-ratio: 13 / 14;
+}
+
 .right-image-post h4,
 .left-image-post h4 {
     margin-top: 0px;
@@ -393,7 +397,7 @@ button:focus {
     margin-top: 30px;
 }
 
-.last-item {
+.divider {
     margin-top: 60px;
     padding-top: 60px;
     border-top: 2px solid rgba(250, 250, 250, 0.1);
@@ -633,13 +637,6 @@ figure.snip1321.hover:after {
 }
 
 /* Responsive rules */
-
-@media screen and (min-width: 768px) {
-    .work-item {
-        max-height: 373px;
-        overflow: hidden;
-    }
-}
 
 @media screen and (max-width: 1680px) {
     .menu {
