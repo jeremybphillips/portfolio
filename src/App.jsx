@@ -37,7 +37,7 @@ function App() {
             </div>
             <div className="author-content">
               <h4>Jeremy Phillips</h4>
-              <span>Senior Frontend Engineer</span>
+              <span>Senior Software Engineer</span>
             </div>
             <nav className="main-nav" role="navigation">
               <ul className="main-menu">
@@ -62,7 +62,7 @@ function App() {
             <h2>About Me</h2>
             <div className="line-dec"></div>
             <span>
-              Senior Frontend Engineer with 15+ years building high-traffic
+              Senior Software Engineer with 15+ years building high-traffic
               applications. I've led frontend architecture for applications
               serving 10M+ users and driven a 50% increase in annual signups
               through targeted UX improvements. Fluent in AI-assisted
@@ -78,7 +78,7 @@ function App() {
           <div className="left-image-post work-item">
             <div className="row">
               <div className="col-md-6">
-                <div className="left-image">
+                <div className="left-image ecomm-crop">
                   <LightboxThumbnailButton
                     isOpen={lightboxOpen === 1}
                     onClose={() => setLightboxOpen(null)}
@@ -176,7 +176,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="left-image-post work-item last-item">
+          <div className="left-image-post work-item divider">
             <div className="row">
               <div className="col-md-6">
                 <div className="left-image">
@@ -219,6 +219,52 @@ function App() {
                     CI/CD release pipeline.
                   </p>
                   <button onClick={() => setLightboxOpen(3)}>View More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="right-image-post work-item divider">
+            <div className="row">
+              <div className="col-md-6">
+                <div className="left-text">
+                  <h4>WSU Decision Aid System</h4>
+                  <p>
+                    Full stack dev for WSU Decision Aid System, a Vue / Laravel
+                    platform designed to transfer time-sensitive information to
+                    decision makers.
+                  </p>
+                  <p>
+                    Collaborated directly with WSU agricultural scientists to
+                    shape features across the full stack — Vue frontend, Laravel
+                    backend, and MySQL database. The platform integrates
+                    real-time weather data into 40+ pest, disease, and
+                    horticultural models relied on by 500+ crop management
+                    professionals across Washington State's tree fruit and
+                    potato industries.
+                  </p>
+                  <button onClick={() => setLightboxOpen(4)}>View More</button>
+                </div>
+              </div>
+              <div className="col-md-6">
+                <div className="right-image">
+                  <LightboxThumbnailButton
+                    isOpen={lightboxOpen === 4}
+                    onClose={() => setLightboxOpen(null)}
+                    slides={[
+                      {
+                        src: "assets/images/das/01.png",
+                        title: "",
+                      },
+                      {
+                        src: "assets/images/das/02.png",
+                        title: "",
+                      },
+                      {
+                        src: "assets/images/das/03.png",
+                        title: "",
+                      },
+                    ]}
+                  />
                 </div>
               </div>
             </div>
